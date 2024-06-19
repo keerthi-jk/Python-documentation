@@ -1,0 +1,35 @@
+#checking inbuilt functions for the string collection/data type - immutable 
+name = "Jungkook"
+#counting the number of charachters in the given string 
+print(name.count("k"))
+
+#replcing charachters in a string , a new string is returned  and also its case sensitive 
+print(name.replace("g","G"))
+
+#find - finds the first index of the charachter mentioned in parameters 
+print(name.find("k"))
+
+#Starts with - checks if the string starts with the mentioned set of charachters 
+print(name.startswith("Ju"))
+
+#endswith - checks if the string ends with the mentioned set of charachters 
+print(name.endswith("ck"))
+
+# isdigit - checks if all charachters in a string are digits
+#   returns true if all charachters in a string are digit
+print("jungkook has digits ",name.isdigit())
+data = "klm45t"
+print("data has digits", data.isdigit())
+
+#upper - converts all lower case letters in string to upper 
+print(name.upper())
+
+#lower - converts all upper case letters in a string to lower
+print(name.lower())
+
+#split - splits the string into substrings set based on the delimiter provided 
+# - space is the default delimiter 
+print("substrings set based on k as delimiter ",name.split("k"))
+data2 = "mango jui cer"
+print("substring set based on space as delimiter ",name.split(" "))
+print("substring set based on space as delimiter ",data2.split(" "))
